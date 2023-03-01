@@ -67,6 +67,7 @@ body {
 }
 .about-us__hero-section-content-main-content {
   max-width: 500px;
+  padding-bottom: 100px;
 }
 .about-us__hero-section-content-main-content h3 {
   font-family: "Roboto";
@@ -155,4 +156,4 @@ body {
   padding-top: 50px;
   display: flex;
   gap: 100px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
