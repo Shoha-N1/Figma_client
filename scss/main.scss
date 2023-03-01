@@ -1,6 +1,12 @@
 @import "./variables";
 @import "./common";
-@import "./pages/projectReadMore/block/information";
-@import "./pages/projectReadMore/block/features";
-@import "./pages/projectReadMore/block/project";
-@import "./pages/projectReadMore/block/cta";
+// @import "./pages/blocks/block_post_header";
+// @import "./pages/blocks/block-post_verstka";
+// @import "./pages/blocks/block_post_sect_1";
+// @import "./pages/blocks/block_post-sect-2";
+// @import "./pages/blocks/block_post_footer";
+
+@import "./pages/projectReadMore/blocks/information";
+@import "./pages/projectReadMore/blocks/features";
+@import "./pages/projectReadMore/blocks/project";
+@import "./pages/projectReadMore/blocks/cta";
