@@ -207,14 +207,16 @@ button {
   left: -40px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../../../../img/Block_post_read_more_img.png);
+  background-image: url(../img/Block_post_read_more_img.png);
 }
 
 .block_post-sect-2 h4 {
   margin-top: 50px;
   margin-bottom: 10px;
+  font-size: 21px;
 }
 .block_post-sect-2 h2 {
+  font-size: 31px;
   margin-bottom: 10px;
 }
 .block_post-sect-2 p {
