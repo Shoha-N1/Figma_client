@@ -157,7 +157,7 @@ button {
   margin-top: 100px;
   background-image: url(../img/Bg-img.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   max-width: 1130px;
   margin-left: 110px;
   margin-bottom: 100px;
@@ -185,6 +185,7 @@ button {
   color: #fff;
   padding: 10px 0;
   margin-right: 50px;
+  margin-top: 50px;
 }
 
 .cta__inner-btn:hover {
