@@ -10,6 +10,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -29,30 +31,30 @@ button {
   margin-top: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-.header__ul {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-.header__li {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #525560;
-}
-.header__li.active {
-  color: #0b0706;
-}
-.header .btn__donate {
-  background: #1d2130;
-  border-radius: 4px;
-  text-align: right;
-  padding: 12px 32px;
-  color: #fff;
-}
+// .header__ul {
+//   display: flex;
+//   align-items: center;
+//   gap: 40px;
+// }
+// .header__li {
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 19px;
+//   color: #525560;
+// }
+// .header__li.active {
+//   color: #0b0706;
+// }
+// .header .btn__donate {
+//   background: #1d2130;
+//   border-radius: 4px;
+//   text-align: right;
+//   padding: 12px 32px;
+//   color: #fff;
+// }
 
 .block_post-footer {
   background-color: #0b0706;

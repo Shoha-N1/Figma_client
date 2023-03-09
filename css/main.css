@@ -10,6 +10,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -23,6 +25,97 @@ a {
 
 button {
   cursor: pointer;
+}
+
+.header {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #525560;
+}
+
+.header__li.active {
+  color: #0b0706;
+}
+
+.header .btn__donate {
+  background: #1d2130;
+  border-radius: 4px;
+  text-align: right;
+  padding: 12px 32px;
+  color: #fff;
+}
+
+.block_post-footer {
+  background-color: #0b0706;
+  height: 370px;
+  color: #fff;
+  margin-top: 10%;
+}
+.block_post-footer .footer-box-1 {
+  position: relative;
+  top: 50px;
+  display: flex;
+}
+.block_post-footer .footer-nav {
+  display: flex;
+  gap: 100px;
+  position: relative;
+  top: 100px;
+}
+.block_post-footer .footer-nav h4 {
+  font-size: 18px;
+}
+.block_post-footer .footer-nav ul li {
+  margin-top: 10px;
+}
+.block_post-footer .footer-nav ul li a {
+  position: relative;
+  top: 5px;
+  color: rgb(82, 85, 96);
+}
+.block_post-footer .footer-box-2 {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.block_post-footer .footer-box-2 h2 {
+  font-size: 36px;
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+  width: 370px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+.block_post-footer .footer-box-2 input {
+  padding-left: 20px;
+  color: #fff;
+  width: 400px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid rgb(34, 32, 32);
+}
+.block_post-footer .footer-box-2 button {
+  width: 140px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: rgb(29, 33, 48);
+  margin-left: -5px;
 }
 
 .information {
@@ -39,6 +132,7 @@ button {
   color: rgb(29, 33, 48);
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .information__inner h6::before {
@@ -54,6 +148,7 @@ button {
   font-weight: 700;
   font-size: 56px;
   color: rgb(29, 33, 48);
+  margin-bottom: 30px;
 }
 
 .information__inner p {
@@ -61,6 +156,7 @@ button {
   font-size: 16px;
   line-height: 160%;
   color: #525560;
+  line-height: 160%;
 }
 
 .information__inner img {
@@ -72,6 +168,7 @@ button {
   font-weight: 700;
   font-size: 45px;
   color: rgb(29, 33, 48);
+  margin-bottom: 30px;
 }
 
 .information__inner ul li {
@@ -98,6 +195,7 @@ button {
   font-weight: 700;
   font-size: 20px;
   color: rgb(29, 33, 48);
+  margin-bottom: 10px;
 }
 
 .features__inner-wrap-content p {
@@ -105,6 +203,7 @@ button {
   font-size: 16px;
   line-height: 160%;
   color: #525560;
+  margin-bottom: 20px;
 }
 
 .project__inner {
@@ -179,9 +278,9 @@ button {
   width: 150px;
   background: rgb(112, 193, 116);
   -webkit-backdrop-filter: blur(40px);
-  backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
   border-radius: 4px;
-  border: none;
+  border: 1px solid rgb(112, 193, 116);
   color: #fff;
   padding: 10px 0;
   margin-right: 50px;
@@ -193,4 +292,4 @@ button {
   color: rgb(112, 193, 116);
   border: 1px solid rgb(112, 193, 116);
   transition: 0.3s ease;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
